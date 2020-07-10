@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<title>X U X U Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" type="text/javascript"></script>
+
+<body class="w3-content" style="max-width:1200px">
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>[LOGO IMG]/b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="page.html" class="w3-bar-item w3-button">Home</a>
+    <a onclick="dropDown()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn"> Produtos <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="page.html#produto" class="w3-bar-item w3-button">Ver Todos</a>
+      <a href="newitem.html" class="w3-bar-item w3-button">Novo</a>
+      <a href="alteritem.html" class="w3-bar-item w3-button">Alterar</a>
+    </div>
+  </div>
+  <a href="page.html#footer" class="w3-bar-item w3-button w3-padding">Contato</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Receber e-mails</a> 
+</nav>
+
+<div class="w3-main" style="margin-left:250px">
+  
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">X U X U Store</p>
+    <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <div class="w3-display-container w3-container">
+    <div class="w3-display-topleft w3-text-black" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small">Sobre a Store</h1>
+    </div>
+    
+    <div id="textAbout">
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus diam vel urna posuere, in lacinia felis placerat.
+         Nulla elementum lorem sit amet dolor fringilla ultricies a sollicitudin lorem. Pellentesque malesuada sem in gravida sodales.
+          Etiam nec blandit enim. Nullam tempus, neque sit amet faucibus facilisis, risus mi condimentum ante, at convallis quam erat vel risus.
+           Proin ullamcorper finibus lobortis. Aenean ultrices purus sed erat vehicula venenatis. Integer dignissim lorem vitae ultrices vestibulum.
+            Donec tincidunt mi nec dui vehicula consequat. Nullam gravida sem ac enim fermentum, et lobortis purus laoreet.
+             Nunc porta, lectus aliquam semper malesuada, neque nisi blandit tortor, posuere aliquet ante risus sodales sem.
+              In in neque in mauris egestas commodo. Sed felis sem, pellentesque eget fringilla vitae, facilisis sed tortor.
+               Suspendisse et lectus dui. Integer turpis velit, mattis nec sollicitudin non, finibus vitae sapien. In hac habitasse platea dictumst.</p>
+
+      <p> Morbi a quam fringilla, efficitur lacus et, tempus nisi.
+         Quisque egestas congue bibendum. Proin a arcu nisl. Aliquam at dolor mauris. Phasellus at orci mi.
+          Duis finibus orci quis metus hendrerit, id scelerisque dolor dictum. Nam euismod risus a neque tristique, vitae luctus ex malesuada.</p>
+        
+      <p> Curabitur sit amet augue aliquam, blandit sem vitae, condimentum lectus. Maecenas justo lorem, semper vitae egestas id, lacinia quis leo.
+         Aliquam ut leo sed felis vulputate aliquam ut nec metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec fringilla, sem eget fermentum accumsan, dolor velit convallis neque, nec venenatis quam nisl vel dui.
+           Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque mauris nisl, congue sed tincidunt et, hendrerit quis diam.
+            Pellentesque laoreet dolor eget lacus maximus aliquet. Vestibulum sit amet pharetra justo, id ultrices turpis.
+             Donec at lectus varius, dapibus nisi vehicula, interdum risus.</p>
+        
+      <p> Ut eleifend nisi a ipsum iaculis blandit. Nullam volutpat, ante nec posuere posuere, metus massa vestibulum eros, et ornare orci dolor id eros.
+         Maecenas ullamcorper ipsum nec nulla semper tincidunt. Donec libero purus, suscipit a orci et, volutpat condimentum felis. Etiam sed odio et nisl dictum congue.
+          In mattis dui purus, ac mollis nulla porta sed. Sed ut libero egestas, imperdiet sapien et, consectetur diam. Etiam eget arcu tellus.</p>
+        
+      <p> Ut lectus massa, dapibus eu mi faucibus, sodales porta ante. Aliquam blandit ipsum at elit vulputate eleifend.
+         Vivamus at ipsum risus. Praesent convallis vitae libero eget mollis. Curabitur sed nisl elementum, lacinia nisl vitae, efficitur felis.
+          Quisque tempus sagittis arcu, eu convallis augue consectetur vel. Morbi porttitor nisi mollis enim luctus placerat.</p>
+    </div>
+  </div>
+
+  <footer class="w3-padding-64 w3-small w3-center" id="footer" class="footer">
+    <div class="w3-black w3-center w3-padding-24">Powered by <a href="#" title="Capelli"class="w3-hover-opacity">Capelli</a></div>
+  </footer>
+  <!-- End page content -->
+</div>
+
+
+
+<!-- Newsletter Modal -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">Notícias</h2>
+      <p>Se cadastre para receber notícias de novos produtos.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Cadastrar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

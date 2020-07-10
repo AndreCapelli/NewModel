@@ -1,0 +1,77 @@
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+.itens {
+    width: 100%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+#prodName {
+    width: 400px;
+    display: inline-block;
+}
+
+#spanPreco {
+    margin-left: 20px;
+}
+
+#prodPreco {
+    width: 150px;
+    display: inline-block;
+    margin-right: 250px;
+}
+
+#prodEst {
+    width: 150px;
+    display: inline-block;
+    margin-right: 250px;
+}
+
+#prodImg {
+    text-align: center;
+}
+
+#prodImgBtn {
+    margin-left: 20px;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin-right: 60px;
+}
+
+#prodImgBtn:hover {
+    background-color: #ccc;
+}
+
+.btnAdd { 
+    margin-left: 20px;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.btnAdd:hover {
+    background-color: #ccc;
+}
+
+#textAbout {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
